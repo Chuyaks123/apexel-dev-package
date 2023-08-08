@@ -1,0 +1,4 @@
+{
+    "builds": [{ "src": "views/**", "use": "@now/node-server" }],
+    "routes": [{ "src": "/(.*)", "dest": "views/$1" }]
+}
